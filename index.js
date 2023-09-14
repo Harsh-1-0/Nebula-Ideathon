@@ -11,18 +11,18 @@ const myLineChart = new Chart(ctx, {
     datasets: [
       {
         label: "Team 1",
-        data: [0, 12, 19],
-        borderWidth: 1,
+        data: [0, 11, 19],
+        borderWidth: 6,
       },
       {
         label: "Team 2",
         data: [0, 20, 22],
-        borderWidth: 1,
+        borderWidth: 6,
       },
       {
         label: "Team 3",
         data: [0, 12, 32],
-        borderWidth: 1,
+        borderWidth: 6,
       },
     ],
   },
@@ -34,6 +34,7 @@ const myLineChart = new Chart(ctx, {
     },
   },
 });
+
 const myLineChart2 = new Chart(ct2, {
   type: "line",
   data: {
@@ -42,17 +43,17 @@ const myLineChart2 = new Chart(ct2, {
       {
         label: "Team 1",
         data: [0, 12, 1],
-        borderWidth: 1,
+        borderWidth: 6,
       },
       {
         label: "Team 2",
         data: [0, 20, 22],
-        borderWidth: 1,
+        borderWidth: 6,
       },
       {
         label: "Team 3",
         data: [0, 12, 32],
-        borderWidth: 1,
+        borderWidth: 6,
       },
     ],
   },
@@ -72,17 +73,17 @@ const myLineChart3 = new Chart(ct3, {
       {
         label: "Team 1",
         data: [0, 12, 19],
-        borderWidth: 1,
+        borderWidth: 6,
       },
       {
         label: "Team 2",
         data: [0, 20, 22],
-        borderWidth: 1,
+        borderWidth: 6,
       },
       {
         label: "Team 3",
         data: [0, 12, 32],
-        borderWidth: 1,
+        borderWidth: 6,
       },
     ],
   },
@@ -102,17 +103,17 @@ const myLineChart4 = new Chart(ct4, {
       {
         label: "Team 1",
         data: [0, 12, 19],
-        borderWidth: 1,
+        borderWidth: 6,
       },
       {
         label: "Team 2",
         data: [0, 20, 22],
-        borderWidth: 1,
+        borderWidth: 6,
       },
       {
         label: "Team 3",
         data: [0, 12, 32],
-        borderWidth: 1,
+        borderWidth: 6,
       },
     ],
   },
@@ -132,17 +133,17 @@ const myLineChart5 = new Chart(ct5, {
       {
         label: "Team 1",
         data: [0, 12, 19],
-        borderWidth: 1,
+        borderWidth: 6,
       },
       {
         label: "Team 2",
         data: [0, 20, 22],
-        borderWidth: 1,
+        borderWidth: 6,
       },
       {
         label: "Team 3",
         data: [0, 12, 32],
-        borderWidth: 1,
+        borderWidth: 6,
       },
     ],
   },
