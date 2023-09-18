@@ -2,26 +2,25 @@ const ctx = document.getElementById("myChart");
 const ct2 = document.getElementById("D2");
 const ct3 = document.getElementById("D3");
 const ct4 = document.getElementById("D4");
-const ct5 = document.getElementById("D5");
 
 const myLineChart = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["Round 1", "Round 2", "Round 3"],
+    labels: ["9", "10", "11", "12", "1"],
     datasets: [
       {
         label: "Team 1",
-        data: [0, 11, 19],
+        data: [0, 0, 1000, 1200, 950],
         borderWidth: 6,
       },
       {
         label: "Team 2",
-        data: [0, 20, 22],
+        data: [0, 0, 1000, 1700, 1450],
         borderWidth: 6,
       },
       {
         label: "Team 3",
-        data: [0, 12, 32],
+        data: [0, 0, 1000, 1500, 1250],
         borderWidth: 6,
       },
     ],
@@ -42,17 +41,17 @@ const myLineChart2 = new Chart(ct2, {
     datasets: [
       {
         label: "Team 1",
-        data: [0, 12, 1],
+        data: [1000, 12, 1],
         borderWidth: 6,
       },
       {
         label: "Team 2",
-        data: [0, 20, 22],
+        data: [1000, 20, 22],
         borderWidth: 6,
       },
       {
         label: "Team 3",
-        data: [0, 12, 32],
+        data: [1000, 12, 32],
         borderWidth: 6,
       },
     ],
@@ -72,17 +71,17 @@ const myLineChart3 = new Chart(ct3, {
     datasets: [
       {
         label: "Team 1",
-        data: [0, 12, 19],
+        data: [1000, 12, 19],
         borderWidth: 6,
       },
       {
         label: "Team 2",
-        data: [0, 20, 22],
+        data: [1000, 20, 22],
         borderWidth: 6,
       },
       {
         label: "Team 3",
-        data: [0, 12, 32],
+        data: [1000, 12, 32],
         borderWidth: 6,
       },
     ],
@@ -102,47 +101,17 @@ const myLineChart4 = new Chart(ct4, {
     datasets: [
       {
         label: "Team 1",
-        data: [0, 12, 19],
+        data: [1000, 12, 19],
         borderWidth: 6,
       },
       {
         label: "Team 2",
-        data: [0, 20, 22],
+        data: [1000, 20, 22],
         borderWidth: 6,
       },
       {
         label: "Team 3",
-        data: [0, 12, 32],
-        borderWidth: 6,
-      },
-    ],
-  },
-  options: {
-    scales: {
-      y: {
-        beginAtZero: true,
-      },
-    },
-  },
-});
-const myLineChart5 = new Chart(ct5, {
-  type: "line",
-  data: {
-    labels: ["Round 1", "Round 2", "Round 3"],
-    datasets: [
-      {
-        label: "Team 1",
-        data: [0, 12, 19],
-        borderWidth: 6,
-      },
-      {
-        label: "Team 2",
-        data: [0, 20, 22],
-        borderWidth: 6,
-      },
-      {
-        label: "Team 3",
-        data: [0, 12, 32],
+        data: [1000, 12, 32],
         borderWidth: 6,
       },
     ],

@@ -1,0 +1,29 @@
+Each team will get 1000 points initially.
+Minor crisis (-250 points)
+Major crisis (-500 points)
+Final judgement will be done by subtracting 250 points from the total points .
+
+Review 1 (100)
+How good their idea and how feasible it is(+20/-20).
+How they answer our ques/ how much they know about their idea
+How hard they are working/ how much thought is given/ how much they care or
+serious about it
+How much they have worked since last review.
+PPT.
+
+Review 2 (100)
+How they answer our ques/ how much they know about their idea (+2/-2).
+How hard they are working/ how much thought is given/ how much they care or
+serious about it (+20/-20).
+How much they have worked since last review(+20/-20).
+PPT (+10/-10).
+How well they are handling the minor crisis (+30/-30).
+
+Review 3 (Final Review)(20)
+how they answer our ques/ how much they know about their idea (+40/-40).
+How much they have worked since last review (+40/-40).
+How well they are handling the major crisis (+120/-120).
+
+Graph will move as per the time 
+Like 8,9,10,11,12
+2nd  9,10,11,12,1
