@@ -37,3 +37,10 @@ h1{
         padding-right: 5rem;;
     }
 }
+.time{
+    position: absolute;
+    padding-left: 30.5rem;
+    padding-top: 30rem;
+    color: #797979;
+   
+}
